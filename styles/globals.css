@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Masquer la barre de défilement verticalement */
+::-webkit-scrollbar {
+    width: 0.4em; /* Ajustez la largeur au besoin */
+}
+
+/* Styling de la poignée de défilement */
+::-webkit-scrollbar-thumb {
+    background-color: transparent; /* Couleur de fond */
+    border-radius: 8px; /* Arrondi de la poignée de défilement */
+}
+  
