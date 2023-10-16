@@ -2,6 +2,7 @@ import About from '@components/sections/About'
 import OurMission from '@components/sections/OurMission'
 import Timeline from '@components/sections/Timeline'
 import Team from '@components/sections/Team'
+import Story from '@components/sections/Story'
 
 interface AboutPageProps {}
 
@@ -12,6 +13,7 @@ const AboutPage: React.FC<AboutPageProps> = () => {
             <OurMission />
             <Timeline />
             <Team />
+            <Story />
         </div>
     )
 }

@@ -47,7 +47,11 @@ const services: Service[] = [
     },
 ]  
 
-const Services:React.FC = ({ titleClasses }) => {
+interface ServicesProps {
+    titleClasses: string;
+}
+  
+const Services: React.FC<ServicesProps> = ({ titleClasses }) => {
     return (
         <section className="bg-gray-50 dark:bg-gray-900 text-white w-full">
             <div

@@ -13,3 +13,40 @@
     border-radius: 8px; /* Arrondi de la poignée de défilement */
 }
   
+
+.animation-sliding-img-up-1 {
+    animation: sliding-img-up-1 30s linear infinite;
+}
+.animation-sliding-img-down-1 {
+    animation: sliding-img-down-1 30s linear infinite;
+}
+.animation-sliding-img-up-2 {
+    animation: sliding-img-up-2 30s linear infinite;
+}
+@keyframes sliding-img-up-2 {
+    0% {
+        transform: translateY(0);
+    }
+    
+    100% {
+        transform: translateY(-928px);
+    }
+}
+@keyframes sliding-img-up-1 {
+    0% {
+        transform: translateY(0);
+    }
+    
+    100% {
+        transform: translateY(-615px);
+    }
+}
+@keyframes sliding-img-down-1 {
+    0% {
+        transform: translateY(-986px);
+    }
+    
+    100% {
+        transform: translateY(0);
+    }
+}

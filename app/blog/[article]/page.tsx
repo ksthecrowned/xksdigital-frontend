@@ -1,11 +1,11 @@
-import Article from '@components/sections/Article'
+import BlogArticle from '@components/sections/BlogArticle'
 
-interface ArticlePageProps {}
+interface BlogArticlePageProps {}
 
-const ArticlePage: React.FC<ArticlePageProps> = () => {
+const BlogArticlePage: React.FC<BlogArticlePageProps> = () => {
     return (
         <div className="py-12">
-            <Article />
+            <BlogArticle />
         </div>
     )
 }
@@ -15,4 +15,4 @@ export const metadata = {
     description: "XksDigital",
 }
 
-export default ArticlePage
+export default BlogArticlePage
